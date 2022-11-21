@@ -1,0 +1,6 @@
+It's parser for python versions list. For work just enter path to output file(it's must be a .txt file). If you've a problem with connection than 
+restart program while she's don't start to work. Sometimes can be an errors with connection. 
+
+Have a nice using! 
+
+f0rk1l©
