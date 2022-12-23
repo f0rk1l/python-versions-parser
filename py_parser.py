@@ -1,7 +1,6 @@
 import requests 
 from bs4 import BeautifulSoup
 from tqdm import tqdm 
-from time import sleep
 from colorama import init, Fore
 import os 
 from pyautogui import prompt 
@@ -28,8 +27,6 @@ with open(get_file_path, 'w', encoding='utf-8') as file:
         file.write(f'{version.text}\n')
         
     print(Fore.RED + '\nDone!')
-
-    file.close()
 
 os.system(get_file_path)
 
